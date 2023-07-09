@@ -4,8 +4,8 @@ import { render, fireEvent, screen } from '@testing-library/react';
 import { Button } from './Button';
 
 test('render button component', () => {
-    render(<Button>Click meee</Button>);
-    const button = screen.getByText('Click meee');
+    render(<Button>Click me</Button>);
+    const button = screen.getByText('Click me');
     expect(button).toBeInTheDocument();
 })
 
