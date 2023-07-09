@@ -24,6 +24,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Configure Git
+        run: |
+          git config --local user.email "amil7.abdullayev@gmail.com"
+          git config --local user.name "AmilAbdullazadeh"  
+
       - name: Deploy
         run: npm run deploy
         env:
