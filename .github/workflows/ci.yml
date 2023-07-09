@@ -26,7 +26,7 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --local user.email "amil7.abdullayev@gmail.com"
+          git config --local user.email "amilva@code.edu.az"
           git config --local user.name "AmilAbdullazadeh"  
           npx gh-pages -d build -r https://x-access-token:${{ secrets.SECRET_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
 
