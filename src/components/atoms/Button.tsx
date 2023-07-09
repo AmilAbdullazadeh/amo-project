@@ -1,4 +1,4 @@
-import React, {ReactNode, FC} from  "react";
+import React, {ReactNode} from  "react";
 import "./Button.scss";
 
 interface ButtonProps {
