@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+
+  &__label {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+  &__input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+}
